@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+    color: white;
+    margin-right: 25%;
+    margin-left: 25%;
+    
+}
+.myDiv {
+  border: 5px outset white;
+  background-color: orange;
+  text-align: center;
+  height: 100px;
+    width: 100px;
+    border: 2px;
+    border-style: dotted;
+}
+h1{
+    font-size: 20px;
+    border: 6px solid blue;
+}
+h3 {
+  border: 4px dotted lightpink;
+}
+
+p{ font-size: 12px;}
+p{ color: green;}
