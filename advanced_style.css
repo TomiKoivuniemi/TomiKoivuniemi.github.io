@@ -1,0 +1,44 @@
+.box-shadow{
+  border: 1px black solid;
+  box-shadow: 5px 10px;
+  padding-left: 10px;
+}
+
+.box-shadow h1{
+  text-shadow: gray 2px 2px;
+}
+
+.links{
+  margin-top: 12px;
+}
+
+.links a{
+  color: black;
+  text-decoration: none;
+  -webkit-transition: color .5s linear;
+ -moz-transition: color .5s linear;
+ -ms-transition: color .5s linear;
+ -o-transition: color .5s linear;
+ transition: color .5s linear;
+}
+
+.links a:hover{
+  color:red;
+}
+
+.body {
+  background-color: yellow;
+}
+
+@media only screen and (max-width: 800px) {
+ *{
+   color: white;
+ }
+ .links a{
+   color: white;
+ }
+  body {
+    background-color: black;
+
+  }
+}
