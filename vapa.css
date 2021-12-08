@@ -149,6 +149,8 @@ h1, h2{
 #slide1:checked ~ #cc-slides .inner { margin-left:0; }
 #slide2:checked ~ #cc-slides .inner { margin-left:-100%; }
 #slide3:checked ~ #cc-slides .inner { margin-left:-200%; }
+#slide4:checked ~ #cc-slides .inner { margin-left:-300%; }
+#slide5:checked ~ #cc-slides .inner { margin-left:-400%; }
 
 
 
