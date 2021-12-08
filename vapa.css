@@ -149,8 +149,7 @@ h1, h2{
 #slide1:checked ~ #cc-slides .inner { margin-left:0; }
 #slide2:checked ~ #cc-slides .inner { margin-left:-100%; }
 #slide3:checked ~ #cc-slides .inner { margin-left:-200%; }
-#slide4:checked ~ #cc-slides .inner { margin-left:-300%; }
-#slide5:checked ~ #cc-slides .inner { margin-left:-400%; }
+
 
 
 #overflow {
@@ -225,11 +224,12 @@ h1, h2{
 }
 
 
-#slide1:checked ~ #controls label:nth-child(5),
-#slide2:checked ~ #controls label:nth-child(1),
-#slide3:checked ~ #controls label:nth-child(2),
-#slide4:checked ~ #controls label:nth-child(3),
-#slide5:checked ~ #controls label:nth-child(4) {
+#slide1:checked ~ #controls label:nth-child(2),
+#slide2:checked ~ #controls label:nth-child(3),
+#slide3:checked ~ #controls label:nth-child(4),
+#slide4:checked ~ #controls label:nth-child(5),
+#slide5:checked ~ #controls label:nth-child(1) {
+	background: url('images/next.png') no-repeat;
 	background: url('prev.png') no-repeat;
 	float: left;
 	margin: 0 0 0 17px;
