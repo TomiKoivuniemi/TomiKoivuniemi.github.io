@@ -240,22 +240,6 @@ h1, h2{
 	background-color: #4c63ad;
 }
 
-.cctooltip {
-
-    color: #FFFFFF;
-    font-style: italic;
-    line-height: 20px;
-    margin-top: 8%;
-    opacity: 0;
-    position: fixed;
-    text-align: left;
-		z-index: 0;
-	-webkit-transform: translateZ(0);
-	-webkit-transition: all 0.3s ease-out;
-	-moz-transition: all 0.3s ease-out;
-	-o-transition: all 0.3s ease-out;
-	transition: all 0.3s ease-out;
-}
 
 #cc-slides {
 	margin: 45px 0 0;
